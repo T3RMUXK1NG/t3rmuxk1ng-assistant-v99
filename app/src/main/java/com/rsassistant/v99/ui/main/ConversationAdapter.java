@@ -1,0 +1,42 @@
+package com.rsassistant.v99.ui.main;
+
+import android.view.LayoutInflater;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import androidx.recyclerview.widget.RecyclerView;
+import com.rsassistant.v99.R;
+import com.rsassistant.v99.model.ConversationMessage;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ConversationAdapter extends RecyclerView.Adapter<ConversationAdapter.ViewHolder> {
+    private List<ConversationMessage> messages = new ArrayList<>();
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new ViewHolder(LayoutInflater.from(parent.getContext())
+            .inflate(R.layout.item_message, parent, false));
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        ConversationMessage msg = messages.get(position);
+        holder.messageText.setText(msg.getText());
+    }
+
+    @Override
+    public int getItemCount() { return messages.size(); }
+
+    public void addMessage(ConversationMessage message) {
+        messages.add(message);
+        notifyItemInserted(messages.size() - 1);
+    }
+
+    static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView messageText;
+        ViewHolder(View v) {
+            super(v);
+            messageText = v.findViewById(R.id.messageText);
+        }
+    }
+}
