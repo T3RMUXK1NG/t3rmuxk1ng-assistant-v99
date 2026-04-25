@@ -1,8 +1,10 @@
 package com.rsassistant.v99.util;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import java.util.List;
 
@@ -27,13 +29,8 @@ public class PermissionHelper {
         return true;
     }
 
-    public static void requestAllPermissions(android.app.Activity activity, PermissionCallback callback) {
-        com.guolindev.permissionx.PermissionX.init(activity)
-            .permissions(java.util.Arrays.asList(CORE_PERMISSIONS))
-            .request((allGranted, grantedList, deniedList) -> {
-                if (allGranted) callback.onAllGranted();
-                else callback.onSomeDenied(deniedList);
-            });
+    public static void requestAllPermissions(Activity activity, PermissionCallback callback) {
+        ActivityCompat.requestPermissions(activity, CORE_PERMISSIONS, REQUEST_ALL_PERMISSIONS);
     }
 
     public static boolean hasMicrophonePermission(Context context) {
