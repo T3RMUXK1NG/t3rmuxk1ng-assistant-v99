@@ -1,6 +1,7 @@
 package com.rsassistant.v99.ui.main;
 
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
@@ -14,8 +15,8 @@ public class ConversationAdapter extends RecyclerView.Adapter<ConversationAdapte
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ViewHolder(LayoutInflater.from(parent.getContext())
-            .inflate(R.layout.item_message, parent, false));
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_message, parent, false);
+        return new ViewHolder(v);
     }
 
     @Override

@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.rsassistant.v99.Constants;
 import com.rsassistant.v99.R;
+import com.rsassistant.v99.model.ConversationMessage;
 import com.rsassistant.v99.nlp.HinglishProcessor;
 import com.rsassistant.v99.nlp.IntentClassifier;
 import com.rsassistant.v99.service.AIAssistantService;
@@ -168,7 +169,6 @@ public class MainActivity extends AppCompatActivity implements RecognitionListen
 
     private void executeAction(IntentClassifier.IntentResult intent) {
         String action = intent.getAction();
-        String target = intent.getTarget();
         switch (action) {
             case "camera": startActivity(new Intent(this, CameraActivity.class)); speak("Opening camera"); break;
             case "time": speak("The time is " + java.text.DateFormat.getTimeInstance().format(new java.util.Date())); break;
