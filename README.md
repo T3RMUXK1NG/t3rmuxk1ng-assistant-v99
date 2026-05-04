@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
 [![API 26+](https://img.shields.io/badge/API-26%2B-green?style=for-the-badge)](https://developer.android.com/about/dashboards)
-[![Build APK](https://github.com/rajsaraswati-jatavv/rs-assistant-v99/actions/workflows/build-apk.yml/badge.svg)](https://github.com/rajsaraswati-jatavv/rs-assistant-v99/actions/workflows/build-apk.yml)
+[![Build APK](https://github.com/T3RMUXK1NG/t3rmuxk1ng-assistant-v99/actions/workflows/build-apk.yml/badge.svg)](https://github.com/T3RMUXK1NG/t3rmuxk1ng-assistant-v99/actions/workflows/build-apk.yml)
 
 > The previous generation AI voice assistant for Android — featuring NLP-powered Hinglish processing and full phone control. Built by [T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng).
 
@@ -28,7 +28,7 @@
 ## 🏗️ Architecture
 
 ```
-rs-assistant-v99/
+t3rmuxk1ng-assistant-v99/
 ├── app/src/main/java/com/rsassistant/v99/
 │   ├── RSAssistantApp.java           # Application class
 │   ├── Constants.java                # App constants
@@ -72,14 +72,14 @@ rs-assistant-v99/
 ## 🚀 Installation
 
 ### Download APK
-Download the latest APK from the [Actions](https://github.com/rajsaraswati-jatavv/rs-assistant-v99/actions) tab.
+Download the latest APK from the [Actions](https://github.com/T3RMUXK1NG/t3rmuxk1ng-assistant-v99/actions) tab.
 
 ### Build from Source
 
 ```bash
 # Clone the repository
-git clone https://github.com/rajsaraswati-jatavv/rs-assistant-v99.git
-cd rs-assistant-v99
+git clone https://github.com/T3RMUXK1NG/t3rmuxk1ng-assistant-v99.git
+cd t3rmuxk1ng-assistant-v99
 
 # Build debug APK
 ./gradlew assembleDebug
@@ -91,7 +91,7 @@ cd rs-assistant-v99
 
 ## 🔄 Upgrade to v100
 
-This is v99 — the previous generation. For the latest features including shake detection, memory manager, smart suggestions, and SOS emergency, upgrade to **[RS Assistant v100](https://github.com/rajsaraswati-jatavv/rs-assistant-v100)**.
+This is v99 — the previous generation. For the latest features including shake detection, memory manager, smart suggestions, and SOS emergency, upgrade to **[RS Assistant v100](https://github.com/T3RMUXK1NG/t3rmuxk1ng-assistant-v100)**.
 
 ---
 
@@ -103,10 +103,10 @@ This is v99 — the previous generation. For the latest features including shake
 
 ## 👤 Author
 
-**Rajsaraswati Jatav (T3rmuxk1ng)**
+**T3RMUXK1NG (T3rmuxk1ng)**
 
 - YouTube: [https://youtube.com/@T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)
-- GitHub: [rajsaraswati-jatavv](https://github.com/rajsaraswati-jatavv)
+- GitHub: [T3RMUXK1NG](https://github.com/T3RMUXK1NG)
 
 ---
 
@@ -120,6 +120,6 @@ This project is licensed under the MIT License.
 
 **If you found this project useful, give it a star!**
 
-[YouTube](https://youtube.com/@T3rmuxk1ng) | [GitHub](https://github.com/rajsaraswati-jatavv)
+[YouTube](https://youtube.com/@T3rmuxk1ng) | [GitHub](https://github.com/T3RMUXK1NG)
 
 </div>
