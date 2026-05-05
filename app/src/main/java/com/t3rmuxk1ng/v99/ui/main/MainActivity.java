@@ -1,4 +1,4 @@
-package com.rsassistant.v99.ui.main;
+package com.t3rmuxk1ng.v99.ui.main;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,16 +15,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.rsassistant.v99.Constants;
-import com.rsassistant.v99.R;
-import com.rsassistant.v99.model.ConversationMessage;
-import com.rsassistant.v99.nlp.HinglishProcessor;
-import com.rsassistant.v99.nlp.IntentClassifier;
-import com.rsassistant.v99.service.AIAssistantService;
-import com.rsassistant.v99.service.VoiceRecognitionService;
-import com.rsassistant.v99.ui.camera.CameraActivity;
-import com.rsassistant.v99.ui.settings.SettingsActivity;
-import com.rsassistant.v99.util.PermissionHelper;
+import com.t3rmuxk1ng.v99.Constants;
+import com.t3rmuxk1ng.v99.R;
+import com.t3rmuxk1ng.v99.model.ConversationMessage;
+import com.t3rmuxk1ng.v99.nlp.HinglishProcessor;
+import com.t3rmuxk1ng.v99.nlp.IntentClassifier;
+import com.t3rmuxk1ng.v99.service.AIAssistantService;
+import com.t3rmuxk1ng.v99.service.VoiceRecognitionService;
+import com.t3rmuxk1ng.v99.ui.camera.CameraActivity;
+import com.t3rmuxk1ng.v99.ui.settings.SettingsActivity;
+import com.t3rmuxk1ng.v99.util.PermissionHelper;
 
 import java.util.ArrayList;
 import java.util.Locale;

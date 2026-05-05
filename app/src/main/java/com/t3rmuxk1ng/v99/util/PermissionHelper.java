@@ -1,4 +1,4 @@
-package com.rsassistant.v99.util;
+package com.t3rmuxk1ng.v99.util;
 
 import android.Manifest;
 import android.app.Activity;

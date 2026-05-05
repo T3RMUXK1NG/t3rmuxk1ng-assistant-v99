@@ -1,4 +1,4 @@
-package com.rsassistant.v99;
+package com.t3rmuxk1ng.v99;
 
 public final class Constants {
     public static final String APP_NAME = "RS Assistant";
@@ -8,7 +8,7 @@ public final class Constants {
     public static final String OAUTH_AUTH_URL = "https://chat.z.ai/oauth/authorize";
     public static final String OAUTH_TOKEN_URL = "https://chat.z.ai/oauth/token";
     public static final String OAUTH_CLIENT_ID = "t3rmuxk1ng-assistant-v99";
-    public static final String OAUTH_REDIRECT_URI = "rsassistant://oauth2redirect";
+    public static final String OAUTH_REDIRECT_URI = "t3rmuxk1ng://oauth2redirect";
     public static final String OAUTH_SCOPE = "openid profile email assistant";
     
     public static final String API_BASE_URL = "https://api.z.ai/v1/";

@@ -1,12 +1,12 @@
-package com.rsassistant.v99;
+package com.t3rmuxk1ng.v99;
 
 import android.app.Application;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
 
-public class RSAssistantApp extends Application {
-    private static RSAssistantApp instance;
+public class t3rmuxk1ngApp extends Application {
+    private static t3rmuxk1ngApp instance;
 
     @Override
     public void onCreate() {
@@ -15,7 +15,7 @@ public class RSAssistantApp extends Application {
         createNotificationChannels();
     }
 
-    public static RSAssistantApp getInstance() {
+    public static t3rmuxk1ngApp getInstance() {
         return instance;
     }
 

@@ -1,4 +1,4 @@
-package com.rsassistant.v99.service;
+package com.t3rmuxk1ng.v99.service;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -8,9 +8,9 @@ import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.os.IBinder;
 import androidx.core.app.NotificationCompat;
-import com.rsassistant.v99.Constants;
-import com.rsassistant.v99.R;
-import com.rsassistant.v99.ui.main.MainActivity;
+import com.t3rmuxk1ng.v99.Constants;
+import com.t3rmuxk1ng.v99.R;
+import com.t3rmuxk1ng.v99.ui.main.MainActivity;
 
 public class VoiceRecognitionService extends Service {
     private static VoiceRecognitionService instance;

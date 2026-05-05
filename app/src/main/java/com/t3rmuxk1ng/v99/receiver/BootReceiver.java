@@ -1,9 +1,9 @@
-package com.rsassistant.v99.receiver;
+package com.t3rmuxk1ng.v99.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.rsassistant.v99.service.VoiceRecognitionService;
+import com.t3rmuxk1ng.v99.service.VoiceRecognitionService;
 
 public class BootReceiver extends BroadcastReceiver {
     @Override

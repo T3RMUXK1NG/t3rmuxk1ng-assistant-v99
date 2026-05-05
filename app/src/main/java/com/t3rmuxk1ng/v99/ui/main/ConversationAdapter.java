@@ -1,12 +1,12 @@
-package com.rsassistant.v99.ui.main;
+package com.t3rmuxk1ng.v99.ui.main;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
-import com.rsassistant.v99.R;
-import com.rsassistant.v99.model.ConversationMessage;
+import com.t3rmuxk1ng.v99.R;
+import com.t3rmuxk1ng.v99.model.ConversationMessage;
 import java.util.ArrayList;
 import java.util.List;
 

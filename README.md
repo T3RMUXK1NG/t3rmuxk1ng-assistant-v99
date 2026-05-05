@@ -29,8 +29,8 @@
 
 ```
 t3rmuxk1ng-assistant-v99/
-├── app/src/main/java/com/rsassistant/v99/
-│   ├── RSAssistantApp.java           # Application class
+├── app/src/main/java/com/t3rmuxk1ng/v99/
+│   ├── t3rmuxk1ngApp.java           # Application class
 │   ├── Constants.java                # App constants
 │   ├── ui/
 │   │   ├── main/

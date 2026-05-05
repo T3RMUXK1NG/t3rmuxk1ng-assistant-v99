@@ -1,9 +1,9 @@
-package com.rsassistant.v99.security;
+package com.t3rmuxk1ng.v99.security;
 
 import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
-import com.rsassistant.v99.Constants;
+import com.t3rmuxk1ng.v99.Constants;
 import net.openid.appauth.*;
 
 public class OAuthManager {

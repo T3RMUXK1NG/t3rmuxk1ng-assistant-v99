@@ -1,4 +1,4 @@
-package com.rsassistant.v99.nlp;
+package com.t3rmuxk1ng.v99.nlp;
 
 import android.content.Context;
 import java.util.*;

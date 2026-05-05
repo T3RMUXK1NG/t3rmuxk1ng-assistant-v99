@@ -3,25 +3,25 @@ plugins {
 }
 
 android {
-    namespace 'com.rsassistant.v99'
+    namespace 'com.t3rmuxk1ng.v99'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.rsassistant.v99"
+        applicationId "com.t3rmuxk1ng.v99"
         minSdk 26
         targetSdk 34
         versionCode 99
         versionName "99.0.0"
         multiDexEnabled true
-        manifestPlaceholders = [appAuthRedirectScheme: 'rsassistant']
+        manifestPlaceholders = [appAuthRedirectScheme: 't3rmuxk1ng']
     }
 
     signingConfigs {
         release {
-            storeFile file('rsassistant.keystore')
-            storePassword 'rsassistant2024'
-            keyAlias 'rsassistant'
-            keyPassword 'rsassistant2024'
+            storeFile file('t3rmuxk1ng.keystore')
+            storePassword 't3rmuxk1ng2024'
+            keyAlias 't3rmuxk1ng'
+            keyPassword 't3rmuxk1ng2024'
         }
     }
 

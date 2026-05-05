@@ -1,4 +1,4 @@
-package com.rsassistant.v99.model;
+package com.t3rmuxk1ng.v99.model;
 
 public class ConversationMessage {
     private String text;

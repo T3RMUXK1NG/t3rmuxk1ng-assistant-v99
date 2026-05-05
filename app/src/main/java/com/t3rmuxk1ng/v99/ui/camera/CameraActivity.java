@@ -1,4 +1,4 @@
-package com.rsassistant.v99.ui.camera;
+package com.t3rmuxk1ng.v99.ui.camera;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -12,7 +12,7 @@ import androidx.camera.view.PreviewView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import com.google.common.util.concurrent.ListenableFuture;
-import com.rsassistant.v99.R;
+import com.t3rmuxk1ng.v99.R;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Locale;

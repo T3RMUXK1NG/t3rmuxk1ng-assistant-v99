@@ -1,9 +1,9 @@
-package com.rsassistant.v99.ui.settings;
+package com.t3rmuxk1ng.v99.ui.settings;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
-import com.rsassistant.v99.R;
+import com.t3rmuxk1ng.v99.R;
 
 public class SettingsActivity extends AppCompatActivity {
     @Override

@@ -1,4 +1,4 @@
-package com.rsassistant.v99.service;
+package com.t3rmuxk1ng.v99.service;
 
 import android.content.Context;
 import com.google.gson.Gson;
